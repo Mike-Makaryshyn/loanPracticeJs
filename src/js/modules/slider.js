@@ -41,10 +41,6 @@ export default class Slider {
 
    plusSlides(n) {
       this.showSlides(this.slideIndex += n);
-
-      if (this.slideIndex == 3) {
-         this.showHansonByTime(3000);
-      }
    }
 
    render() {
