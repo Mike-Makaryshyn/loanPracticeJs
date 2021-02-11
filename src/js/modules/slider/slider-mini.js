@@ -4,7 +4,7 @@ export default class MiniSlider extends Slider {
    constructor(container,next,prev,activeClass,animate,autoplay) {
       super(container,next,prev,activeClass,animate,autoplay);
    }
-   
+
 
    decorizeSlides() {
       this.slides.forEach(slide => {
